@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云顶书院八期全栈方向第二周作业</title>
+    <style>
+   .w{
+      width:1200px;
+      margin:0 auto;
+    } 
+
+
+        *{
+            margin: 0px;
+        }
+        .header{
+            height: 400px;
+            width:100%;
+            position: relative;
+           background-color: aqua;
+          background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\The best pen is  just LAMY.png");
+          background-size: 100% 400px;
+        }
+        .header_flex{
+          width: 700px;
+          height: 50px;
+          position: absolute;
+          left: 25%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .box{
+           
+          color: #fbf8f8;
+            width: 100px;
+            height: 50px;
+        }
+        .box~.box3{
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\img_lamylogo.png");
+            background-size: 100px 50px;
+            background-color: red;
+        }
+        .welcome{
+            top: 40px;
+           background-color: aliceblue;
+            position: relative;
+            width: 100%;
+            height: 300px;
+        }
+        .welcome_lamy{
+      position: absolute;
+      z-index: 1;
+          display: flex;
+          flex-direction: row;
+          top: 40px;
+            width: 700px;
+            height: 300px;
+            left: 27%;
+            background-color: blueviolet;
+        }
+        .img{
+            position: absolute;
+           right: 400px;
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\播放.png");
+            background-size: 300px 300px;
+        }
+        .text{
+            width: 500px;
+            height: 300px;
+            background-color: azure;
+        }
+        .video{
+            left: 120px;
+            position: absolute;
+            z-index: 1;
+            top: 190px;
+            width: 200px;
+            height: 150px;
+            background-color: black ;
+            background-image:url("C:\\Users\\86186\\Desktop\\新建文件夹\\图层 4.png") ;
+            background-size: 200px 150px;
+            background:rgba(255, 1, 56, 0.671);
+        }
+        .title{
+            position: relative;
+            top: 20px;
+            left: 410px;
+            width: 300px;
+            height: 80px;
+          
+        }
+            .xiliebie{
+                position: relative;
+                width: 100%;
+                height: 460px;
+                background-color: aquamarine;
+                background:rgba(255, 1, 56, 0)
+            }
+            .title2{
+              position: absolute;
+              z-index: 1;
+                left: 540px;
+                top: 130px;
+              width: 150px;
+              height: 50px;
+              background-color: brown;
+              background:rgba(255, 1, 56, 0)
+            }
+            .lamy_xilie{
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                top: 100px;
+                left: 220px;
+                width: 800px;
+                height: 400px;
+                background-color: bisque;
+                background:rgba(255, 1, 56, 0)
+            }
+            .xulie{
+                position: relative;
+                top: 80px;
+                right: 10px;
+                width: 240px;
+                height: 270px;
+                background-color: blueviolet;
+                background:rgba(255, 1, 56, 0)
+            }
+            
+            .lamy_bottom{
+                position: relative;
+                top: 60px;
+                left: 540px;
+                width: 150px;
+                height: 50px;
+                background-color: rgb(9, 9, 9);
+                background:rgba(255, 1, 56, 0)
+            }
+            .img2_b{
+                top: 70px;;
+                position: relative;
+                width: 100%;
+                height: 300px;
+                background-color: rgb(187, 183, 183);
+            }
+            .i1{
+                position: relative;
+                
+                left: 230px;
+                width: 800px;
+                height: 150px;
+                background-color: aqua;
+                background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\p24964153.png");
+                background-size: 800px 150px;
+            }
+            .i2{position: relative;
+                top: -65px;
+                left: 230px;
+                width: 800px;
+                height: 150px;
+                background-color: aqua;
+                background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\p24964204.png");
+                background-size: 800px 150px;
+            }
+        .renwu_b{
+            position: relative;
+            width: 100%;
+            height: 350px;
+            background-color: rgb(48, 49, 48);
+        }
+        .title3{
+            position: relative;
+            left: 42%;
+            width: 200px;
+            height: 100px;
+            color: white;
+            background-color: blueviolet;
+            background:rgba(255, 1, 56, 0)
+            
+        }
+        .toux{
+           position: absolute;
+           z-index: 1;
+           width: 60px;
+           height: 60px;
+           top: 110px;
+           left: 48%;
+           background-color: blueviolet;
+           background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\IMG_20180210_144432.png");
+           background-size: 60px 60px;
+        }
+        .wenzi{
+            position: relative;
+            left: 30%;
+            width: 500px;
+            height: 250px;
+            background-color: rgb(255, 255, 255);
+        }
+        .chanp_b{
+            position: relative;
+            width: 100%;
+            height: 750px;
+            background-color: rgb(254, 253, 252);
+        }
+        .title4{
+           position: relative;
+           left: 41%;
+           top: 130px;
+           width: 250px;
+           height: 100px;
+           background-color: blueviolet;
+           background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\屏幕截图 2023-11-25 143454.png");
+           background-size: 250px 100px;
+        }
+        .c1{
+            position: relative;
+            width: 150px;
+            height: 150px;
+            left: 20%;
+            top:130px ;
+            background-color: brown;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\u=3968571395,2372439321&fm=27&gp=0.png");
+            background-size: 150px 150px;
+
+        }
+        .c2{
+            position: relative;
+            left: 20%;
+            top: 130px;
+            width: 150px;
+            height: 250px;
+            background-color: blueviolet;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\OgfkOenS7NfO.png");
+            background-size: 150px 250px;
+        }
+        .c3{ position: relative;
+            left: 45%;
+           top: -270px;
+            width: 150px;
+            height: 250px;
+            background-color: blue;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\LAMY_joy.png");
+            background-size: 150px 250px;
+        }
+        .c4{ position: relative;
+            left: 70%;
+            top: -370px;
+            width: 150px;
+            height: 250px;
+            background-color:red ;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\053a74e10bb650f5a2a11aaabc08422f.png");
+            background-size: 150px 250px;
+        }
+        .c5{ position: relative;
+            width: 150px;
+            height: 150px;
+            left: 45%;
+            top:-520px ;
+            background-color: aqua;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\5607d2c6d46d4db38722a3e03254de32.png");
+            background-size: 150px 150px;
+ }
+        .c6{
+            position: relative;
+            left: 70%;
+            top: -920px;
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+            background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\u=3725517664,3071040087&fm=27&gp=0.png");
+            background-size: 150px 150px;
+        }
+        .c_buttom{
+           position: relative;
+           top: -630px;
+            left: 45%;
+            width:150px;
+            height: 50px;
+            background-color: rgb(226, 43, 208);
+            background:rgba(255, 1, 56, 0)
+        }
+       .xinp_b{
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background-color: blanchedalmond;
+      
+        background: linear-gradient(to bottom, rgb(65, 64, 64) 0%, rgb(84, 82, 82) 50%, #efedea 50%, #efede9 100%);
+
+
+
+       }
+       .xinp{
+        position: relative;
+        left: 17%;
+        top: 90px;
+        width: 850px;
+        height: 450px;
+        background-color: brown;
+       }
+       .x1{
+        position: relative;
+        width: 600px;
+        height: 150px;
+        background-color: rgb(240, 255, 240);
+        background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\0230ac71b7bd3abcaa8d479e9196cdee.png");
+        background-size: 600px 150px;
+       }
+    .x2{
+        position: relative;
+        width: 600px;
+        height: 150px;
+        background-color: blue;
+        background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\c709a77f7264b7a03b926a162ed2126a.png");
+        background-size: 600px 150px;
+    }
+    .x3{
+        position: relative;
+        width: 600px;
+        height: 150px;
+        background-color:red;
+        background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\a759229c3ba7c2bbf1ac6fc9289572cb.png");
+        background-size: 600px 150px;
+    }
+    .w4{
+        position: relative;
+        left: 600px;
+        top: -450px;
+        width: 250px;
+        height: 450px;
+        background-color: beige;
+    }
+    .x_buttom{
+        position: relative;
+        left: 40%;
+        top: -400px;
+        width: 150px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0);
+        
+    }
+    .last{
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(3, 3, 3);
+        background-image: url("C:\\Users\\86186\\Desktop\\新建文件夹\\图层 15.png");
+        background-size: 100% 600px;
+    }
+    .w5{
+        position: relative;
+        width: 200px;
+        height: 100px;
+        color:white;
+        background-color: rgb(250, 242, 242);
+        background:rgba(255, 255, 255, 0);
+        left: 43%;
+        top: 30%;
+    }
+    footer{color: rgb(246, 238, 238);
+        position: relative;
+            width: 100%;
+            height: 50px;
+            background-color: #0c0c0c;}
+           
+
+    </style>
+</head>
+<body>
+    <div class="w">
+    
+    <div class="header">
+        
+       <div class="header_flex">
+        <div class="box">
+       &nbsp&nbsp&nbsp新品推荐</div>
+        <div class="box">
+            在线购买产品  
+        </div>
+        <div class="box box3"></div>
+        <div class="box">
+            &nbsp&nbsp&nbsp企业礼包
+        </div>
+        <div class="box">
+            &nbsp&nbsp&nbsp品牌介绍
+        </div>
+       </div>
+    </div>
+    <div class="welcome">
+        <div class="welcome_lamy">
+            <div class="title"><b>
+                <br> <font size="5" >Welcome TO LAMY</font></b></div>
+            <div class="img"></div>
+            <div class="text"><br>
+                <br>
+                <br>
+                <br>
+                hhhh 德国书写工具品牌LAMY创始人C·Josef lamy于1930年hhhh在海德堡创立了欧瑟斯墨水笔制造厂。<br>
+                hhhh1952年,崭露头角的laym流线型墨水笔,震撼问世，彰显公司的创新敏锐触觉。<br>
+                hhhh1966年终于打造出令人耳目一新的现代经典之作-LAMY 2000系列。<br>
+                hhhh产品撮和了聚碳酸酯和不锈钢材质,绝妙的搭配,使之从hhhh芸芸众生中的书写工具中脱颖而出,时至今日,依然在hhhh市场具有影响力。<br>
+                </div>
+            <div class="video"></div>
+        </div>
+    </div>
+    <div class="xiliebie">
+        <div class="title2"><font size="5">LAMY各系列</font></div>
+        <div class="lamy_xilie">
+            
+            <div class="xulie "> <caption>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font size="4">[恒星系列&nbsp墨水笔]</font><b></b></caption>
+                <p><br><br>
+                    LAMY恒星系列延续了LAMY的时尚造型,打造出锦上添花的极致品质。<br>
+                    此系列全部均由氧化独特的凹陷式笔握以及弹性铜线笔夹富的颜色让LAMY恒星系列突破了传统,
+                    散发了无限的青春魅力。
+                </p>
+            
+            </div>
+            <div class="xulie"><caption>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font size="4">[狩猎系列限量色墨水笔]</font><b></b></caption>
+                <p><br><br>
+                    色彩丰富，颜色艳丽，不仅是可以作为书写工具，同样是很好的装饰品。<br>
+                    宽大的笔夹设计,可随时夹在包带,牛仔裤,T恤袖口上,让您感受创意方便的携带方式。<br>
+                    笔身通体材质采用车用强力ABS材料。
+                </p>
+            
+            </div>
+            <div class="xulie"><caption>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font size="4">[喜悦系列美术笔]</font><b></b></caption>
+                <p><br><br>
+                    色彩丰富，颜色艳丽，不仅是可以作为书写工具，同样是很好的装饰品。<br>
+                    宽大的笔夹设计,可随时夹在包带,牛仔裤,T恤袖口上,让您感受创意方便的携带方式。<br>
+                    笔身通体材质采用车用强力ABS材料。
+                </p>
+            </div>
+        </div>
+        <div class="lamy_bottom"><button><font size="6">了解详情</font></div>
+    </div>
+    <div class="img2_b">
+        <div class="i1"></div>
+        <div class="i2"></div>
+    </div>
+    <div class="renwu_b">
+        <div class="title3"> <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i>for germany</i><br>
+            &nbsp&nbsp&nbsp&nbspwhat people are &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsaying
+        </h3></div>
+        <div class="toux"></div>
+        <div class="wenzi"><br><br><br><br><br>使用令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种<br>
+                            材质，也足以成就出这款永恒的设计。产品本身是体现不同加工程序和制造工艺<br>
+                            手工打磨的亚光拉丝表面充分体现了品牌对细节的注重。
+                            
+    </div>
+    <div class="chanp_b">
+        <div class="title4"></div>
+        <div class="c1"></div>
+        <div class="c2"></div>
+        <div class="c3"></div>
+        <div class="c4"></div>
+        <div class="c5"></div>
+        <div class="c6"></div>
+        <div class="c_buttom"><button><font size="6">戳我速购</font></button></div>
+    </div>
+    <div class="xinp_b">
+       <div class="xinp">
+        <div class="x1"></div>
+        <div class="x2"></div>
+        <div class="x3"></div>
+        <div class="w4"><i>you make millions of decisions that is mean nothing and then one day your order takes out life<br>
+                    <br><br><br> <br> <br>     it is sad when you realize you are not is important to someone as you thought you were<br>
+                    <br> <br> <br> <br> <br>      love is uneqal so do ont count how much one contributes and which is more active<br></i>
+       </div>
+        <div class="x_buttom"><button><font size="6">新品推荐</font></button></div>
+       </div>
+    </div>
+    <div class="last">
+        <div class="w5"><font size="12"><b><i>LAMY</i></b></font></div>
+    </div>
+    <footer align="center">·凄美中国 2015 版权所有 不得转载</footer>
+</body></div> 
+</html>
